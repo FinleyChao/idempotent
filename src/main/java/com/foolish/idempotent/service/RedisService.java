@@ -24,11 +24,11 @@ public class RedisService {
     private RedisTemplate redisTemplate;
 
     /**
-     * 写入缓存
-     *
-     * @param key
-     * @param value
-     * @return
+     * @Description:
+     * @Author: finley
+     * @Date: 2020/6/29 15:34
+     * @Param: [key, value]
+     * @return: boolean
      */
     public boolean set(final String key, Object value) {
         boolean result = false;
@@ -43,11 +43,11 @@ public class RedisService {
     }
 
     /**
-     * 写入缓存设置时效时间
-     *
-     * @param key
-     * @param value
-     * @return
+     * @Description:
+     * @Author: finley
+     * @Date: 2020/6/29 15:34
+     * @Param: [key, value, expireTime]
+     * @return: boolean
      */
     public boolean setEx(final String key, Object value, Long expireTime) {
         boolean result = false;
