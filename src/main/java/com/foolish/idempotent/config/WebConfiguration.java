@@ -15,6 +15,7 @@ import javax.annotation.Resource;
 public class WebConfiguration extends WebMvcConfigurationSupport {
     @Resource
     private AutoIdempotentInterceptor autoIdempotentInterceptor;
+
     /**
      * 添加拦截器
      * @param registry
