@@ -54,7 +54,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.6</version>
+            <version>3.18.0</version>
         </dependency>
         <!--开发阶段使用：springboot热启动(热部署)：项目有更改，自动编译：需配置idea   true生效-->
         <dependency>
